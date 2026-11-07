@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EAB Advocacia de Negócios</title>
+<meta name="description" content="O jurídico do empresário. Tributário, bancário, trabalhista patronal e empresarial. Sede em Guanambi/BA, atendimento em todo o Brasil.">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta property="og:title" content="EAB Advocacia de Negócios"><meta property="og:description" content="O jurídico do empresário. Tributário, bancário, trabalhista patronal e empresarial. Sede em Guanambi/BA, atendimento em todo o Brasil.">
+<meta property="og:image" content="img/reuniao.jpg"><meta property="og:locale" content="pt_BR">
+<link rel="icon" href="img/simbolo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@400;500;600&display=swap">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LegalService", "name": "EAB Advocacia de Negócios", "legalName": "Erly de Azevedo Batista Sociedade Individual de Advocacia", "url": "https://eabadvocacia.com.br/", "telephone": "+55-77-98154-0943", "email": "contato@eabadvocacia.com.br", "areaServed": "BR", "address": {"@type": "PostalAddress", "streetAddress": "Rua Henrique Dias, 454, Centro", "addressLocality": "Guanambi", "addressRegion": "BA", "postalCode": "46430-000", "addressCountry": "BR"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "18:00"}]}</script>
+<style>
+/* Conceito: ficha de escritório — marfim e grafite, bronze como fio condutor; fotos verticais em pares com texto */
+:root{
+  --grafite:#2B2D33; --grafite-2:#3A3C43; --bronze:#A8854F; --bronze-claro:#C9B28A; --bronze-texto:#8B6B3A;
+  --marfim:#F6F5F0; --areia:#EEE8DC; --linha:#E3DDCF; --tinta:#5E5E64; --branco:#FFFFFF;
+  --display:"Cormorant Garamond", "Cormorant", Georgia, "Times New Roman", serif;
+  --texto:"Montserrat", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  --max:1160px; color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--marfim);color:var(--grafite);font-family:var(--texto);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--marfim)}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.005em}
+p{margin:0}
+.wrap{max-width:var(--max);margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--bronze-texto)}
+.on-dark .eyebrow{color:var(--bronze-claro)}
+.lead{font-size:clamp(17px,1.6vw,19px);color:var(--tinta);max-width:58ch}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--texto);font-size:14px;font-weight:600;letter-spacing:.04em;text-decoration:none;padding:15px 26px;border-radius:2px;border:1px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn-bronze{background:var(--bronze);color:var(--branco)}
+.btn-bronze:hover{background:var(--bronze-texto)}
+.btn-linha{border-color:currentColor;background:transparent}
+.btn-linha:hover{background:var(--grafite);color:var(--marfim);border-color:var(--grafite)}
+.on-dark .btn-linha:hover{background:var(--marfim);color:var(--grafite);border-color:var(--marfim)}
+:focus-visible{outline:2px solid var(--bronze);outline-offset:3px}
+
+/* topo */
+.topo{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(246,245,240,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--linha)}
+.topo .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;height:76px}
+.topo .marca img{height:44px;width:auto}
+.menu{display:flex;align-items:center;gap:28px;font-size:13.5px;font-weight:500}
+.menu a{text-decoration:none;color:var(--grafite)}
+.menu a:hover{color:var(--bronze-texto)}
+.menu .btn{padding:11px 18px;font-size:13px}
+@media (max-width:900px){.menu a:not(.btn){display:none}.topo .marca img{height:36px}}
+
+/* abertura */
+.abertura{background:var(--grafite);color:var(--marfim)}
+.abertura .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,6vw,80px);align-items:center;padding-block:clamp(48px,8vw,104px)}
+.abertura h1{font-size:clamp(46px,7vw,92px);font-weight:500}
+.abertura h1 em{font-style:italic;color:var(--bronze-claro)}
+.abertura .lead{color:#D9D6CE;margin-top:24px}
+.abertura .acoes{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px}
+.dividas{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.dividas span{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;border:1px solid rgba(201,178,138,.5);color:var(--bronze-claro);padding:7px 12px}
+.foto-moldura{position:relative;min-width:0}
+.foto-moldura::before{content:"";position:absolute;inset:22px -14px -14px 22px;border:1px solid var(--bronze)}
+.foto-moldura img{position:relative;width:100%;aspect-ratio:4/5;object-fit:cover}
+@media (max-width:820px){.abertura .wrap{grid-template-columns:1fr}.foto-moldura{max-width:460px}}
+
+/* faixa */
+.faixa{border-bottom:1px solid var(--linha);background:var(--marfim)}
+.faixa .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px 28px;padding-block:22px;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--tinta)}
+.faixa b{color:var(--bronze-texto);font-weight:600}
+
+/* seções */
+.secao{padding-block:clamp(64px,9vw,120px)}
+.secao h2{font-size:clamp(36px,4.6vw,58px);font-weight:500;margin-top:14px}
+.dupla{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,88px);align-items:center}
+.dupla > *{min-width:0}
+@media (max-width:820px){.dupla{grid-template-columns:1fr}}
+.texto p+p{margin-top:16px}
+.texto p{color:var(--tinta);max-width:60ch}
+.bordao{margin-top:34px;padding-top:24px;border-top:1px solid var(--linha);font-family:var(--display);font-size:clamp(24px,2.6vw,30px);font-style:italic;line-height:1.3;color:var(--grafite)}
+.foto-reta img{width:100%;aspect-ratio:4/5;object-fit:cover}
+
+/* atuação */
+.atuacao{background:var(--areia)}
+.atuacao .cab{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px}
+.produtos{margin-top:48px;border-top:1px solid var(--grafite)}
+.produto{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1.4fr) auto;gap:16px 40px;align-items:start;padding-block:34px;border-bottom:1px solid #D8D0BF;text-decoration:none;color:inherit;transition:background .2s}
+.produto:hover{background:rgba(255,255,255,.45)}
+.produto h3{font-size:clamp(26px,2.6vw,34px);font-weight:600}
+.produto .tag{display:inline-block;margin-top:10px;font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--bronze-texto)}
+.produto p{color:var(--tinta);font-size:15.5px}
+.produto .ir{font-size:13px;font-weight:600;letter-spacing:.06em;white-space:nowrap;color:var(--grafite);border-bottom:1px solid var(--bronze);padding-bottom:2px;align-self:center}
+@media (max-width:820px){.produto{grid-template-columns:1fr}.produto .ir{justify-self:start}}
+
+/* método */
+.pilares{display:grid;grid-template-columns:1fr 1fr;gap:34px 40px;margin-top:40px}
+.pilar h3{font-family:var(--texto);font-size:15px;font-weight:600;letter-spacing:.02em}
+.pilar h3::before{content:"";display:block;width:28px;height:1px;background:var(--bronze);margin-bottom:14px}
+.pilar p{color:var(--tinta);font-size:15px;margin-top:8px}
+@media (max-width:560px){.pilares{grid-template-columns:1fr}}
+
+/* equipe */
+.equipe{background:var(--branco)}
+.lider{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(28px,5vw,72px);align-items:center;margin-top:48px}
+.lider > *{min-width:0}
+.lider img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%}
+.nome{line-height:1.12;font-family:var(--display);font-size:clamp(32px,3.4vw,44px);font-weight:600}
+.cargo{font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--bronze-texto);margin-top:8px}
+.lider .texto{margin-top:22px}
+.pares{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,3vw,40px);margin-top:48px}
+.membro{display:grid;grid-template-rows:auto 1fr;gap:26px}
+.membro > *{min-width:0}
+.membro .retrato{position:relative}
+.membro .retrato img,.monograma{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 15%;background:var(--marfim)}
+.monograma{display:grid;place-items:center;align-content:center;gap:10px;background:var(--areia);font-family:var(--display);font-size:72px;line-height:1;color:var(--bronze-texto);border:1px solid var(--linha)}
+.monograma small{font-family:var(--texto);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--tinta)}
+.membro .nome{font-size:clamp(28px,2.8vw,36px)}
+.membro p.bio{color:var(--tinta);font-size:15.5px;margin-top:16px}
+@media (max-width:980px){.pares{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.pares{grid-template-columns:1fr}.membro .retrato{max-width:440px}}
+
+/* escritório */
+.galeria{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-top:44px}
+.galeria img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.galeria figure{margin:0}
+.galeria figcaption{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--tinta);margin-top:10px;font-weight:600}
+@media (max-width:700px){.galeria{grid-template-columns:1fr 1fr}.galeria figure:last-child{grid-column:span 2}.galeria figure:last-child img{aspect-ratio:16/10}}
+
+/* contato */
+.contato{background:var(--grafite);color:var(--marfim)}
+.contato .dupla{align-items:start}
+.contato .lead{color:#D9D6CE}
+.canais{margin-top:32px;display:grid;gap:14px;font-size:15px}
+.canais div{display:flex;gap:14px;flex-wrap:wrap}
+.canais span{min-width:96px;font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--bronze-claro);padding-top:3px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px;background:var(--grafite-2);padding:clamp(22px,3.5vw,36px);border:1px solid rgba(201,178,138,.25)}
+form > *{min-width:0}
+.campo{display:grid;gap:6px}
+.campo.cheio{grid-column:1/-1}
+label{font-size:11.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--bronze-claro)}
+input,select,textarea{width:100%;font:inherit;font-size:15px;color:var(--marfim);background:var(--grafite);border:1px solid #55575E;border-radius:2px;padding:12px 13px}
+input::placeholder,textarea::placeholder{color:#8E8F94}
+textarea{min-height:110px;resize:vertical}
+.consent{grid-column:1/-1;display:flex;gap:10px;align-items:flex-start;font-size:13px;color:#C9C6BE;text-transform:none;letter-spacing:0;font-weight:400}
+.consent input{width:auto;margin-top:4px}
+.consent a{color:var(--bronze-claro)}
+form .btn{grid-column:1/-1;justify-content:center}
+.retorno{grid-column:1/-1;font-size:14px;color:#D9D6CE}
+.retorno a{color:var(--bronze-claro);font-weight:600}
+@media (max-width:560px){form{grid-template-columns:1fr}}
+
+/* onde estamos */
+.onde dl{display:grid;gap:18px;margin:30px 0 0}
+.onde dt{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--bronze-texto)}
+.onde dd{margin:4px 0 0;color:var(--grafite)}
+
+/* rodapé */
+.rodape{background:#232429;color:#BEBBB3;font-size:13.5px}
+.rodape .wrap{padding-block:56px 36px}
+.rodape .linha1{display:flex;flex-wrap:wrap;justify-content:space-between;gap:28px;align-items:flex-start}
+.rodape img{height:46px;width:auto}
+.rodape nav{display:flex;flex-wrap:wrap;gap:12px 26px}
+.rodape a{text-decoration:none;color:#E4E1D9}
+.rodape a:hover{color:var(--bronze-claro)}
+.legal{margin-top:40px;padding-top:22px;border-top:1px solid #3A3B41;font-size:12px;line-height:1.7;color:#8F8D87}
+
+/* whatsapp flutuante */
+.flutuante{position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:70;display:flex;align-items:center;gap:10px;background:var(--bronze);color:var(--branco);text-decoration:none;font-size:13.5px;font-weight:600;padding:13px 18px;border-radius:999px;box-shadow:0 8px 24px rgba(43,45,51,.28)}
+.flutuante:hover{background:var(--bronze-texto)}
+.flutuante svg{width:20px;height:20px}
+
+/* páginas de produto */
+.p-abertura{background:var(--grafite);color:var(--marfim)}
+.p-abertura .wrap{padding-block:clamp(48px,7vw,92px)}
+.p-abertura h1{font-size:clamp(40px,6vw,76px);font-weight:500;margin-top:14px;max-width:18ch}
+.p-abertura .lead{color:#D9D6CE;margin-top:22px}
+.voltar{font-size:13px;text-decoration:none;color:var(--bronze-claro);font-weight:600}
+.etapas{counter-reset:e;display:grid;gap:0;margin-top:34px;border-top:1px solid var(--linha)}
+.etapa{counter-increment:e;display:grid;grid-template-columns:64px 1fr;gap:18px;padding-block:24px;border-bottom:1px solid var(--linha)}
+.etapa::before{content:counter(e,decimal-leading-zero);font-family:var(--display);font-size:30px;color:var(--bronze-texto);line-height:1}
+.etapa h3{font-family:var(--texto);font-size:16px;font-weight:600}
+.etapa p{color:var(--tinta);font-size:15px;margin-top:6px}
+.docs{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:12px}
+.docs li{padding-left:26px;position:relative;color:var(--grafite)}
+.docs li::before{content:"";position:absolute;left:0;top:.75em;width:12px;height:1px;background:var(--bronze)}
+.faq details{border-bottom:1px solid var(--linha);padding-block:20px}
+.faq details:first-of-type{border-top:1px solid var(--linha);margin-top:30px}
+.faq summary{cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:20px}
+.faq summary::after{content:"+";font-family:var(--display);font-size:26px;line-height:1;color:var(--bronze-texto)}
+.faq details[open] summary::after{content:"–"}
+.faq p{color:var(--tinta);margin-top:12px;max-width:68ch}
+.chamada{background:var(--areia)}
+.chamada .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:24px;padding-block:56px}
+.chamada h2{font-size:clamp(30px,3.6vw,44px);font-weight:500;max-width:22ch}
+.doc h2{font-size:clamp(26px,3vw,34px);margin-top:44px}
+.doc p,.doc li{color:var(--tinta);max-width:70ch;margin-top:12px}
+</style></head><body><header class="topo"><div class="wrap">
+<a class="marca" href="./" aria-label="EAB Advocacia de Negócios — início"><img src="img/logo-positiva.svg" alt="EAB Advocacia de Negócios" width="104" height="44"></a>
+<nav class="menu" aria-label="Principal"><a href="./#atuacao">Atuação</a><a href="./#metodo">Como trabalhamos</a><a href="./#equipe">Equipe</a><a href="./#contato">Contato</a>
+<a class="btn btn-bronze" href="https://wa.me/5577981540943?text=Ol%C3%A1%21%20Gostaria%20de%20falar%20com%20a%20EAB." target="_blank" rel="noopener">Falar com a EAB</a></nav>
+</div></header>
+<main>
+<section class="abertura on-dark"><div class="wrap">
+<div><p class="eyebrow">Advocacia de Negócios · Guanambi/BA</p>
+<h1>O jurídico do <em>empresário.</em></h1>
+<p class="lead">Cuidamos do dia a dia da sua empresa e resolvemos as dívidas que apertam o caixa.</p>
+<div class="dividas" aria-label="Frentes"><span>Bancos</span><span>Fisco</span><span>Trabalhista</span></div>
+<div class="acoes"><a class="btn btn-bronze" href="https://wa.me/5577981540943?text=Ol%C3%A1%21%20Gostaria%20de%20falar%20com%20a%20EAB." target="_blank" rel="noopener">Falar com a EAB</a><a class="btn btn-linha" href="#atuacao">Conhecer a atuação</a></div></div>
+<div class="foto-moldura"><img src="img/reuniao.jpg" alt="Sala de reunião da EAB Advocacia de Negócios, em Guanambi" width="1200" height="1600"></div>
+</div></section>
+
+<div class="faixa"><div class="wrap"><span><b>Tributário</b></span><span><b>Bancário</b></span><span><b>Trabalhista patronal</b></span><span><b>Empresarial</b></span><span>Sede em Guanambi/BA · Atendimento em todo o Brasil</span></div></div>
+
+<section class="secao" id="quem-somos"><div class="wrap dupla">
+<div class="texto"><p class="eyebrow">Quem somos</p><h2>Empresa precisa de advogado que entenda de empresa.</h2>
+<p style="margin-top:26px">A EAB Advocacia de Negócios nasceu dessa convicção. Nosso foco é o empresário: no dia a dia, com contratos, funcionários e decisões que não podem esperar; e nos momentos críticos, quando uma dívida bancária, uma autuação fiscal ou um bloqueio de conta ameaça o caixa.</p>
+<p>Nossa sede fica em Guanambi, no sudoeste da Bahia, e atendemos clientes de todo o Brasil, com reuniões presenciais ou online.</p>
+<p class="bordao">O que já é problema, a gente enfrenta. O que pode virar, a gente previne.</p></div>
+<div class="foto-reta"><img src="img/recepcao.jpg" alt="Recepção do escritório" width="1200" height="1600"></div>
+</div></section>
+
+<section class="secao atuacao" id="atuacao"><div class="wrap">
+<div class="cab"><div><p class="eyebrow">Atuação</p><h2>Onde a EAB atua</h2></div><p class="lead">Quatro frentes que cobrem o dia a dia jurídico da empresa e as dívidas que mais pesam no caixa.</p></div>
+<div class="produtos"><a class="produto" href="departamento-juridico.html"><div><h3>Departamento Jurídico Empresarial</h3><span class="tag">Recorrência · dia a dia da empresa</span></div><p>O jurídico da sua empresa, de forma contínua: contratos, funcionários, orientação preventiva e acompanhamento das demandas, com um advogado que conhece a operação por dentro.</p><span class="ir">Como atuamos →</span></a><a class="produto" href="bloqueio-de-conta.html"><div><h3>Bloqueio de Conta e Execuções</h3><span class="tag">Urgência · Sisbajud e execuções</span></div><p>Conta bloqueada por ordem judicial ou empresa executada pelo Fisco, por banco ou em processo trabalhista. Atuação prioritária para identificar a origem do bloqueio e adotar as medidas cabíveis.</p><span class="ir">Como atuamos →</span></a><a class="produto" href="regularizacao-tributaria.html"><div><h3>Defesa e Regularização Tributária</h3><span class="tag">Autuações e débitos fiscais</span></div><p>Para empresas autuadas ou com débitos com União, Estado ou Município: defesa em autos de infração, ações anulatórias, transação tributária, parcelamentos, planejamento e adequação à Reforma Tributária.</p><span class="ir">Como atuamos →</span></a><a class="produto" href="reestruturacao-de-dividas.html"><div><h3>Reestruturação de Dívidas</h3><span class="tag">Bancos, Fisco e trabalhista</span></div><p>Para a empresa que fatura, mas o caixa não fecha. Diagnóstico completo do passivo e um plano para enfrentar cada dívida na ordem certa, com análise técnica dos contratos bancários.</p><span class="ir">Como atuamos →</span></a></div>
+</div></section>
+
+<section class="secao" id="metodo"><div class="wrap dupla">
+<div class="foto-reta"><img src="img/cafe.jpg" alt="Mesa de trabalho do escritório" width="1200" height="1600"></div>
+<div><p class="eyebrow">Como trabalhamos</p><h2>Com a visão de quem é dono de negócio.</h2>
+<div class="pilares">
+<div class="pilar"><h3>Entender o negócio antes do processo</h3><p>Cada caso começa pela leitura da empresa: o caixa, a operação e o que está em jogo.</p></div>
+<div class="pilar"><h3>Atacar a causa, não só o sintoma</h3><p>Resolvida a urgência, olhamos o que levou até ela, para que o problema não volte.</p></div>
+<div class="pilar"><h3>Falar a língua do empresário</h3><p>Relatórios claros, prazos conhecidos e decisões tomadas junto com o cliente.</p></div>
+<div class="pilar"><h3>Prevenir o que ainda não virou problema</h3><p>O melhor caso é aquele que não precisou existir.</p></div>
+</div></div></div></section>
+
+<section class="secao equipe" id="equipe"><div class="wrap">
+<p class="eyebrow">Equipe</p><h2>Quem conduz o seu caso</h2>
+<div class="pares">
+<div class="membro"><div class="retrato"><img src="img/erly.jpg" alt="Erly de Azevedo Batista" width="1000" height="1250"></div><div><p class="nome">Erly de Azevedo Batista</p><p class="cargo">Advogado · Fundador · OAB/BA nº 63.691</p><p class="bio">Advogado e empresário, Erly conhece a empresa dos dois lados da mesa. Filho de empresários, cresceu no comércio da família e construiu sua trajetória conciliando a advocacia com a gestão de negócios próprios, vivendo na prática o que hoje resolve para os clientes: folha de pagamento, negociação com bancos e relação com o Fisco.</p><p class="bio">À frente da EAB como advogado de negócios, atua nas quatro frentes que mais pesam no caixa de uma empresa: tributária, bancária, trabalhista patronal e empresarial. Conduz pessoalmente os casos de maior complexidade e a reestruturação de dívidas.</p></div></div>
+<div class="membro"><div class="retrato"><img src="img/thales.jpg" alt="Thales dos Santos Cruz Lima" width="1000" height="1333"></div><div><p class="nome">Thales dos Santos Cruz Lima</p><p class="cargo">Advogado · Tributário Empresarial · OAB/BA nº 72.287</p><p class="bio">Conduz as frentes tributárias do escritório, do planejamento ao contencioso: organização tributária da empresa, adequação à Reforma Tributária (IBS e CBS), defesa em autos de infração e execuções fiscais, ações anulatórias, transações e parcelamentos com União, Estados e Municípios.</p></div></div>
+<div class="membro"><div class="retrato"><img src="img/mirianne.jpg" alt="Mirianne Almeida Murta" width="1000" height="1250"></div><div><p class="nome">Mirianne Almeida Murta</p><p class="cargo">Perícia e Cálculos Bancários</p><p class="bio">Foram 14 anos dentro do sistema bancário, do lado de quem elabora e oferece esses contratos. Lê o contrato como o banco lê: tarifas, encargos, seguros e cláusulas que costumam passar despercebidas. Esse conhecimento orienta a estratégia do escritório nos casos de dívidas bancárias.</p></div></div>
+</div></div></section>
+
+<section class="secao" id="escritorio"><div class="wrap">
+<p class="eyebrow">O escritório</p><h2>Um espaço preparado para receber o empresário</h2>
+<div class="galeria">
+<figure><img src="img/producao-1.jpg" alt="Sala de produção" width="1200" height="1600"><figcaption>Sala de produção</figcaption></figure>
+<figure><img src="img/atendimento.jpg" alt="Sala de atendimento" width="1200" height="1600"><figcaption>Sala de atendimento</figcaption></figure>
+<figure><img src="img/producao-2.jpg" alt="Estações de trabalho" width="1200" height="1600"><figcaption>Estações de trabalho</figcaption></figure>
+</div></div></section>
+
+<section class="secao contato on-dark" id="contato"><div class="wrap dupla">
+<div><p class="eyebrow">Fale com a EAB</p><h2>Conte o que está acontecendo na sua empresa.</h2>
+<p class="lead" style="margin-top:22px">Preencha os campos e a mensagem segue pronta para o nosso WhatsApp. Retornamos em horário comercial.</p>
+<div class="canais"><div><span>WhatsApp</span>(77) 98154-0943</div><div><span>E-mail</span>contato@eabadvocacia.com.br</div><div><span>Horário</span>Segunda a sexta, das 8h às 18h</div></div></div>
+<form id="form-contato" novalidate>
+<div class="campo"><label for="f-nome">Nome</label><input id="f-nome" name="nome" autocomplete="name" required placeholder="Seu nome"></div>
+<div class="campo"><label for="f-empresa">Empresa</label><input id="f-empresa" name="empresa" autocomplete="organization" placeholder="Nome da empresa"></div>
+<div class="campo"><label for="f-cidade">Cidade/UF</label><input id="f-cidade" name="cidade" placeholder="Ex.: Guanambi/BA"></div>
+<div class="campo"><label for="f-segmento">Segmento</label><select id="f-segmento" name="segmento"><option>Comércio e varejo</option><option>Supermercado</option><option>Saúde (clínicas)</option><option>Transporte e fretamento</option><option>Locação de veículos e máquinas</option><option>Imobiliário</option><option>Agronegócio</option><option>Indústria</option><option>Serviços</option><option>Outro</option></select></div>
+<div class="campo"><label for="f-func">Funcionários</label><select id="f-func" name="funcionarios"><option>Nenhum</option><option>1 a 9</option><option>10 a 49</option><option>50 a 99</option><option>100 ou mais</option></select></div>
+<div class="campo"><label for="f-assunto">Assunto</label><select id="f-assunto" name="assunto"><option>Bancos e contratos bancários</option><option>Tributos e autuações</option><option>Bloqueio de conta ou execução</option><option>Trabalhista</option><option>Departamento jurídico da empresa</option><option>Outro assunto</option></select></div>
+<div class="campo cheio"><label for="f-relato">Breve relato</label><textarea id="f-relato" name="relato" placeholder="Conte, em poucas linhas, o que está acontecendo na empresa."></textarea></div>
+<label class="consent" for="f-lgpd"><input type="checkbox" id="f-lgpd" required><span>Autorizo o uso destes dados para retorno de contato, conforme a <a href="privacidade.html">Política de Privacidade</a>.</span></label>
+<button class="btn btn-bronze" type="submit"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z" stroke-linejoin="round"/><path d="M9 9.5c.3 2.1 2.4 4.2 4.5 4.5" stroke-linecap="round"/></svg>Enviar pelo WhatsApp</button>
+<p class="retorno" id="f-retorno" aria-live="polite"></p>
+</form>
+</div></section>
+
+<section class="secao onde" id="onde"><div class="wrap dupla">
+<div class="foto-reta"><img src="img/fachada.jpg" alt="Fachada da EAB Advocacia de Negócios, Rua Henrique Dias, 454" width="1200" height="1600"></div>
+<div><p class="eyebrow">Onde estamos</p><h2>Centro de Guanambi, Bahia</h2>
+<dl><div><dt>Endereço</dt><dd>Rua Henrique Dias, 454, Centro, Guanambi/BA, CEP 46.430-000</dd></div><div><dt>Horário</dt><dd>Segunda a sexta, das 8h às 18h</dd></div><div><dt>Atendimento</dt><dd>Presencial em Guanambi e online para todo o Brasil</dd></div></dl>
+<p style="margin-top:30px"><a class="btn btn-linha" href="https://www.google.com/maps/search/?api=1&query=Rua+Henrique+Dias+454+Centro+Guanambi+BA" target="_blank" rel="noopener">Como chegar</a></p></div>
+</div></section>
+</main>
+<footer class="rodape"><div class="wrap">
+<div class="linha1"><img src="img/logo-negativa.svg" alt="EAB Advocacia de Negócios" width="110" height="46">
+<nav aria-label="Rodapé"><a href="departamento-juridico.html">Departamento Jurídico Empresarial</a><a href="bloqueio-de-conta.html">Bloqueio de Conta e Execuções</a><a href="regularizacao-tributaria.html">Defesa e Regularização Tributária</a><a href="reestruturacao-de-dividas.html">Reestruturação de Dívidas</a><a href="privacidade.html">Política de Privacidade</a></nav></div>
+<div class="legal">EAB Advocacia de Negócios · Erly de Azevedo Batista Sociedade Individual de Advocacia · OAB/BA nº 11.440 · CNPJ 67.243.941/0001-27<br>Rua Henrique Dias, 454, Centro, Guanambi/BA, CEP 46.430-000 · Segunda a sexta, das 8h às 18h · WhatsApp (77) 98154-0943 · contato@eabadvocacia.com.br<br>Conteúdo de caráter informativo, em observância ao Provimento nº 205/2021 do Conselho Federal da OAB.</div>
+</div></footer>
+<a class="flutuante" href="https://wa.me/5577981540943?text=Ol%C3%A1%21%20Gostaria%20de%20falar%20com%20a%20EAB." target="_blank" rel="noopener" aria-label="Falar com a EAB pelo WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z" stroke-linejoin="round"/><path d="M9 9.5c.3 2.1 2.4 4.2 4.5 4.5" stroke-linecap="round"/></svg>WhatsApp</a><script>
+(function(){var f=document.getElementById('form-contato');if(!f)return;
+f.addEventListener('submit',function(e){e.preventDefault();var r=document.getElementById('f-retorno');
+var nome=f.nome.value.trim();if(!nome){r.textContent='Informe seu nome para continuar.';f.nome.focus();return;}
+if(!document.getElementById('f-lgpd').checked){r.textContent='Marque a autorização de uso dos dados para enviar.';return;}
+var t='Olá! Vim pelo site da EAB.\n\n*Nome:* '+nome+'\n*Empresa:* '+(f.empresa.value||'-')+'\n*Cidade/UF:* '+(f.cidade.value||'-')+'\n*Segmento:* '+f.segmento.value+'\n*Funcionários:* '+f.funcionarios.value+'\n*Assunto:* '+f.assunto.value+'\n*Relato:* '+(f.relato.value||'-');
+var u='https://wa.me/5577981540943?text='+encodeURIComponent(t);
+r.innerHTML='Mensagem pronta. <a href="'+u+'" target="_blank" rel="noopener">Abrir o WhatsApp e enviar</a>';
+try{var w=window.open(u,'_blank','noopener');}catch(x){}
+});})();
+</script></body></html>
